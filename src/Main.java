@@ -1,10 +1,5 @@
-import analysis.HaikuPoem;
-import data.Writer;
-import ui.Menu;
-
-import java.util.Scanner;
-
-
+import ui.*;
+//
 class Application{
     public void runApplication(){
         Menu haikuMenu = new Menu();
@@ -14,8 +9,6 @@ class Application{
     }
 
 }
-
-
 
 public class Main {
     public static void main(String[] args) {

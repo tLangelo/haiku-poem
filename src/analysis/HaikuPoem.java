@@ -1,6 +1,6 @@
 package analysis;
 
-public class HaikuPoem {
+public class HaikuPoem { //poem class
     private String author;
     private String id;
     private String title;
@@ -15,7 +15,6 @@ public class HaikuPoem {
     public String getText(){
         return this.text;
     }
-
     public String getTitle() {
         return title;
     }
